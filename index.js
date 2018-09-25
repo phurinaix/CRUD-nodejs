@@ -56,7 +56,6 @@ app.post("/Update/:id", (req, res) => {
     })
 });
 
-
 // D => Delete
 app.get("/Delete/:id", (req, res) => {
     var sql = "DELETE FROM user WHERE id='" + req.params.id + "'";
